@@ -3,6 +3,12 @@
     --transition-duration: 1s;
 }
 
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/895/642/non_2x/question-mark-on-blue-background-paper-art-style-vector.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .heading{
     font-size: 1.5em;
     font-weight: bold;
@@ -39,7 +45,7 @@
     width: var(--card-size);
     background: rgb(238,174,202);
     background: radial-gradient(circle,  rgba(238,174,202,1) 36%, rgba(148,187,233,1) 100%);
-    
+    border-radius: 50% ;
     border: 1px solid rgb(214, 214, 214);
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
     cursor: pointer;
